@@ -73,20 +73,14 @@ margin-bottom: 30px;
 }
 .banner-btn{
   display: flex;
-  gap: 30px;
+   gap: 30px;
 }
 .btn1{
 display: grid;
-grid-template-columns: 1fr 1fr ;
+grid-template-columns: 1fr 1fr;
 column-gap: 10px;
-height: 64px;
-border-radius: 5px;
-background-color: #FD6E0A;
-border: 0;
-padding: 18px 35px;
-color: #ffffff;
-font-weight: 700;
-font-size: 20px;
+
+
 }
 
 .btn2{
@@ -163,7 +157,10 @@ color: #181818;
   font-size: 18px;
   color: #757575;
   text-align: center;
+  
   margin-bottom: 50px;
+ 
+ 
 }
 
 .skills-container{
