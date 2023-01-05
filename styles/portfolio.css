@@ -41,6 +41,7 @@ nav ul{
   font-weight: 700;
   font-size: 20px;
 }
+
 /* banner-style */
 .banner{
   display: flex;
@@ -56,20 +57,52 @@ transform: scaleX(-1);
 font-weight: 600;
 font-size: 45px;
 line-height: 61px;
-
-/* Dark 02 */
-
+margin-bottom: 20px;
 color: #474747;
 
 }
 .author-name{
   font-size: 85px;
   font-weight: 700;
+ 
 }
-.author-descrption{
+.author-des{
 color: #757575;
 font-size: 18px;
+margin-bottom: 30px;
 }
+.banner-btn{
+  display: flex;
+  gap: 30px;
+}
+.btn1{
+display: grid;
+grid-template-columns: 1fr 1fr ;
+column-gap: 10px;
+height: 64px;
+border-radius: 5px;
+background-color: #FD6E0A;
+border: 0;
+padding: 18px 35px;
+color: #ffffff;
+font-weight: 700;
+font-size: 20px;
+}
+
+.btn2{
+  height: 64px;
+  border-radius: 5px;
+  background-color: #fff8f3;
+  border: 1px solid #FD6E0A;
+  color: #FD6E0A;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 18px 35px;
+  display: flex;
+  gap: 10px;
+
+}
+
 /* main-section */
 
 main{
